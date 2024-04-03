@@ -1,0 +1,27 @@
+<h2>Universidad</h2>
+<h4>Formulario para Universiad</h4>
+
+<div class="sidebar">
+    <h3>Formulario de universidad</h3>
+    <form>
+
+  
+
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" [(ngModel)]="universidad.nombre" name="name" required>
+      <label for="descripcion">numero:</label>
+      <input type="text" id="descripcion" [(ngModel)]="universidad.numero" name="descripcion" required>
+      
+      <label for="double">tiempo:</label>
+      <input type="text" id="ubicacion" [(ngModel)]="universidad.tiempo" name="precio" required>
+      
+      <label for="ubicacion">ubicacion:</label>
+      <input type="text" id="ubicacion" [(ngModel)]="universidad.ubicacion" name="ubicacion" required>
+      
+      
+      <button (click)="enviar()" type="button">Agregar</button>
+      <br>
+      <button (click)="actualizar()" type="button">Modificar</button>
+    </form>
+</div>
+  

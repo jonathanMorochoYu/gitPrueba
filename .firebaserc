@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "yuquiauto-923ac": {
+      "hosting": {
+        "my-app": [
+          "yuquiauto-923ac"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "yuquiauto-923ac"
+  }
+}
